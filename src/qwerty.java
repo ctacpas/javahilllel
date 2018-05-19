@@ -20,7 +20,7 @@ public class qwerty {
 
 
     }
-    public static double S (int a, int b) {                   //S и s //
+    public static double S (int a, int b) {                   //S и s /////
         double s = a*b;
         return s;}
 
