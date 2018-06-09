@@ -1,0 +1,48 @@
+import java.util.Scanner;
+
+public class q {
+
+public static void main (String [] args) {
+    /*try (Scanner sc1 = new Scanner(System.in)) {
+        int X, Y, Z;
+        X = sc1.nextInt();
+        Y = sc1.nextInt();
+        Z = sc1.nextInt();
+        System.out.println(Z+" "+Y+" "+X);
+         */
+
+
+
+   /*try (Scanner P = new Scanner(System.in)) {
+        int R;
+        R = P.nextInt();
+        while  (R <= 20 && R>0)
+        {
+            System.out.println("Ya programist");
+            R--;*/
+
+
+
+    /*try (Scanner S = new Scanner(System.in)) {
+        int Q;
+          do {
+              Q = S.nextInt();
+          }
+          while (Q!= 0);
+          System.out.println("do svidaniya");
+        //do -> while, nextInt () in do while*/
+
+    try (Scanner C = new Scanner(System.in)) {
+        double A;
+        double    B;
+        A = C.nextDouble();
+        B = C.nextDouble();
+        for (double D = A; B- 1>0; B--){
+            D = D*A;
+            System.out.println(D);
+        }
+
+
+        }
+    }
+}
